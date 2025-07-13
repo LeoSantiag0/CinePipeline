@@ -60,28 +60,13 @@ Criar uma pipeline profissional para:
 
 ---
 
-## 📊 Modelagem Conceitual
-
-| Tabela             | Tipo     | Descrição                                 |
-|--------------------|----------|-------------------------------------------|
-| `filmes_raw`       | Bronze   | Dados brutos extraídos da API             |
-| `filmes`           | Silver   | Filmes com atributos normalizados         |
-| `generos`          | Silver   | Dimensão com os gêneros dos filmes        |
-| `elenco`           | Silver   | Atores principais extraídos por filme     |
-| `filme_elenco`     | Silver   | Tabela de relacionamento N:N (filme ↔ ator) |
-| `diretores`        | Silver   | Diretores por filme                       |
-| `estudios`         | Silver   | Estúdios produtores                       |
-| `filmes_trusted`   | Gold     | Base final consolidada para análise/ML    |
-| `filmes_previstos` | Gold     | Filmes futuros com notas previstas        |
-
----
-
 ## 🧾 Documentação Auxiliar
 
-- Glossário de Dados
-- Linhagem de Dados
-- Roadmap do Projeto
-- Boas Práticas de Git
+- 🧩 Modelagem Conceitual
+- 📚 Glossário de Dados
+- 🔗 Linhagem de Dados
+- 🗺️ Roadmap do Projeto
+- 🔧 Boas Práticas de Git
 
 ---
 
@@ -113,11 +98,11 @@ streamlit run dashboard.py
 
 ## 👨‍💻 Autor
 Leonardo Santiago
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/leonardo-sposito-santiago/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?logo=github)](https://github.com/LeoSantiag0/CinePipeline)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/leonardo-sposito-santiago)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?logo=github&style=flat-square)](https://github.com/LeoSantiag0/CinePipeline)
 
 ---
 
-## 📄 Licença
+## 🛡️ Licença
 Este projeto é para fins exclusivamente educacionais e não possui fins comerciais. Utiliza a API pública da [TMDb](https://www.themoviedb.org/), porém **não é endossado ou certificado pela TMDb**.  
 O uso da API respeita os [termos de uso da TMDb](https://www.themoviedb.org/documentation/api/terms-of-use) e é estritamente educacional e sem fins comerciais.
