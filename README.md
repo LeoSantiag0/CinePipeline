@@ -97,9 +97,9 @@ streamlit run dashboard.py
 ---
 
 ## 👨‍💻 Autor
-Leonardo Santiago
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/leonardo-sposito-santiago)  
-[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?logo=github&style=flat-square)](https://github.com/LeoSantiag0/CinePipeline)
+Leonardo Santiago  
+- [LinkedIn](https://www.linkedin.com/in/leonardo-sposito-santiago)  
+- [GitHub](https://github.com/LeoSantiag0)
 
 ---
 
